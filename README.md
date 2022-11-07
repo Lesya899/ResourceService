@@ -28,7 +28,7 @@ public class TestResource {
 Admin:type=ResourceServerController
 Сделать переменные "name" и "age" доступными для чтения из jmx клиента.
 
-Написать сервлет, который будет обрабатывать запросы на /resources
+Написать сервлет, который будет обрабатывать запросы на /resources.
 При получении POST запроса с параметром path=path_to_resource прочитает ресурс TestResource из указанного в параметре файла и сохранит ссылку в ResourceService.
 
 После чтения, значения name и age должны быть доступны по JMX.
